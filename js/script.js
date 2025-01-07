@@ -1,7 +1,7 @@
 const tabHeader = document.querySelector(".tabheader__items");
 let country = document.querySelector('.tabheader__item');
 let description = document.querySelector('.tab_content div p b');
-let images = document.querySelectorAll('img');
+let images = document.querySelectorAll('.tab_content img');
 
 const countryData = {
     'Paris': {
