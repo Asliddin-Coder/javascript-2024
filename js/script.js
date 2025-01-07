@@ -32,7 +32,6 @@ tabHeader.addEventListener('click', (events) => {
         events.target.classList.add('tabheader__item_active');
 
         const selectedCountry = events.target.textContent.trim();
-        country.textContent = selectedCountry;
 
         if (countryData[selectedCountry]) {
             description.textContent = countryData[selectedCountry].description;
